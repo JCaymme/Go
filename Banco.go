@@ -20,8 +20,8 @@ func (b *Banco) TransferePara(valor float32, destino *Banco)(float32, float32){
 	return b.Saldo, destino.Saldo
 }
 func main(){
-	j := Banco{Nome: "Jean Caymme", Saldo: 2000}
-	a := Banco{Nome: "Arlete", Saldo: 3000}
+	j := Banco{Nome: "Seu nome", Saldo: 2000}
+	a := Banco{Nome: "Seu nome", Saldo: 3000}
 	
 	fmt.Println("Saldo de "+j.Nome+": ",j.Saldo)
 	fmt.Println("Saldo de "+a.Nome+": ",a.Saldo)
